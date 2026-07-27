@@ -1,8 +1,18 @@
 aid: freenome
 name: Freenome
-description: Freenome is a company surfaced as a portfolio company of a16z, crv, dcvc, gv and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Freenome is an early cancer detection company founded in 2014 that develops
+  blood-based screening tests to catch cancer in its earliest, most treatable
+  stages. It combines multiomics laboratory science with artificial intelligence
+  and machine learning to read multiple biological signals from a single blood
+  draw, an approach it calls Personalized Cancer Detection. Its SimpleScreen
+  portfolio includes tests for colorectal and lung cancer, validated through
+  clinical research programs such as the PREEMPT CRC study. Freenome is a
+  clinical diagnostics and life-sciences company; it does not currently publish
+  a public developer API, SDK, or partner integration surface. This profile was
+  added to the API Evangelist network as a venture-portfolio lead (backed by
+  a16z, CRV, DCVC, and GV) and enriched with the public identity, legal, and
+  domain-security signals available from its website.
 url: https://raw.githubusercontent.com/api-evangelist/freenome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +23,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.freenome.com/wp-content/uploads/2023/12/Freenome-Logo-FPO-01.svg
 tags:
 - Company
+- Healthcare
+- Cancer Detection
+- Diagnostics
+- Life Sciences
+- Artificial Intelligence
+- Machine Learning
+- Multiomics
+- Clinical Screening
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +55,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/freenome-domain-security.yml
 - type: Website
   url: https://www.freenome.com/
+- type: Blog
+  url: https://www.freenome.com/news-and-media/
+- type: PrivacyPolicy
+  url: https://www.freenome.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.freenome.com/terms-of-use/
+- type: Support
+  url: https://www.freenome.com/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
