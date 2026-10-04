@@ -56,7 +56,7 @@ tags:
 - Diagnostics
 - Life Sciences
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Multiomics
 - Clinical Screening
 tags_raw:
@@ -69,6 +69,7 @@ tags_raw:
 - Machine Learning
 - Multiomics
 - Clinical Screening
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
